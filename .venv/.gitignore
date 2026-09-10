@@ -1,13 +1,2 @@
-# Ambientes Virtuais
-venv/
-env/
-# Cache do Python
-__pycache__/
-*.pyc
-
-# Arquivos de ambiente (caso usem futuramente)
-.env
-
-# Testes unitários
-htmlcov/
-.coverage
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
