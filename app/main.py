@@ -1,14 +1,14 @@
 from fastapi import Depends, FastAPI, HTTPException
 from sqlalchemy import select
 from sqlalchemy.orm import Session
+from fastapi.middleware.cors import CORSMiddleware
 
 from app.database import BaseBanco, mecanismo_banco, obter_sessao_banco
 from app.models import Livro
 from app.schemas import LivroCriacao, LivroResposta
 
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
 
+BaseBanco.metadata.create_all(bind=mecanismo_banco)
 
 app = FastAPI(
     title="API de Livros",
@@ -27,16 +27,6 @@ app.add_middleware(
     allow_headers=["Content-Type"],
 )
 
-
-BaseBanco.metadata.create_all(bind=mecanismo_banco)
-
-app = FastAPI(
-    title="API de Livros",
-    version="1.0.0",
-    description="API didática para gerenciamento de livros.",
-)
-
-
 @app.post("/livros", response_model=LivroResposta, status_code=201, tags=["Livros"])
 def criar_livro(dados_livro: LivroCriacao, sessao_banco: Session = Depends(obter_sessao_banco)):
     novo_livro = Livro(
@@ -51,7 +41,6 @@ def criar_livro(dados_livro: LivroCriacao, sessao_banco: Session = Depends(obter
     sessao_banco.refresh(novo_livro)
 
     return novo_livro
-
 
 @app.get("/livros", response_model=list[LivroResposta], tags=["Livros"])
 def listar_livros(sessao_banco: Session = Depends(obter_sessao_banco)):
@@ -96,7 +85,7 @@ def atualizar_livro(
 
     return livro
 
-
+    
 @app.delete("/livros/{id_livro}", tags=["Livros"])
 def excluir_livro(
     id_livro: int,
