@@ -4,7 +4,7 @@
 
 ### João Gabriel Tavares de Lira
 
-<img src="assets/joaogblira.jpg" alt="Foto de João Gabriel Tavares de Lira" width="160" style="border-radius: 50%; box-shadow: 0 0 20px rgba(0,150,136,0.5);" />
+<img src="assets/joagablira.jpg"  width="160" style="border-radius: 50%; box-shadow: 0 0 20px rgba(0,150,136,0.5);" />
 
 <br/>
 
@@ -20,7 +20,7 @@
 [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge)](https://developer.mozilla.org/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=111111&style=for-the-badge)](https://developer.mozilla.org/docs/Web/JavaScript)
 
-<img src="assets/livros-animado.svg" width="100%">
+livros-animado.svg" width="100%">
 
 </div>
 
