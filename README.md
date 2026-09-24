@@ -12,17 +12,17 @@
 
 <br/>
 
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=for-the-badge)](https://fastapi.tiangolo.com/)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge)](https://www.mysql.com/)
-[![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?logo=apache&logoColor=white&style=for-the-badge)](https://www.apachefriends.org/)
-[![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge)](https://developer.mozilla.org/docs/Web/HTML)
-[![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge)](https://developer.mozilla.org/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=111111&style=for-the-badge)](https://developer.mozilla.org/docs/Web/JavaScript)
+## 🧱 Stack utilizada
 
-livros-animado.svg" width="100%">
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,fastapi,mysql,html,css,js,vscode,git,github" />
 
 </div>
+
+`Python` · `FastAPI` · `Uvicorn` · `SQLAlchemy` · `PyMySQL` · `MySQL` · `XAMPP` · `phpMyAdmin` · `HTML` · `CSS` · `JavaScript` · `VS Code` · `GitHub`
+
+<img src="assets/livros-animado.svg" width="100%"> </div>
 
 ## 📖 Sobre o projeto
 
@@ -112,15 +112,7 @@ Interface web em HTML, CSS e JavaScript, consumindo a API para cadastrar, listar
 | 🟠 | **Update** | Atualizar livros |
 | 🔴 | **Delete** | Excluir livros |
 
-## 🧱 Stack utilizada
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,fastapi,mysql,html,css,js,vscode,git,github" />
-
-</div>
-
-`Python` · `FastAPI` · `Uvicorn` · `SQLAlchemy` · `PyMySQL` · `MySQL` · `XAMPP` · `phpMyAdmin` · `HTML` · `CSS` · `JavaScript` · `VS Code` · `GitHub`
 
 > 💾 O arquivo `database/biblioteca_db.sql` fica versionado neste repositório, permitindo recriar o banco a qualquer momento pelo phpMyAdmin.
 
