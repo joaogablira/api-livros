@@ -1,24 +1,28 @@
 <div align="center">
 
-# 📚 API de Livros
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:009688,100:4479A1&height=200&section=header&text=API%20de%20Livros&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Sistemas%20Web%20II%20·%203º%20Bimestre&descAlignY=55&descSize=18" width="100%"/>
 
 ### João Gabriel Tavares de Lira
 
-<img src="joaogblira.png" alt="Foto de João Gabriel Tavares de Lira" width="160" style="border-radius: 50%;" />
+<img src="foto/joaogblira.png" alt="Foto de João Gabriel Tavares de Lira" width="160" style="border-radius: 50%; box-shadow: 0 0 20px rgba(0,150,136,0.5);" />
 
-**Projeto da disciplina de SW-II (Sistemas Web II) · 3º Bimestre**
+<br/>
 
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?logo=apache&logoColor=white)](https://www.apachefriends.org/)
-[![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
-[![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=111111)](https://developer.mozilla.org/docs/Web/JavaScript)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=009688&center=true&vCenter=true&width=600&lines=Cadastre%2C+liste%2C+edite+e+exclua+livros;API+REST+com+FastAPI+%2B+MySQL;Front-end+consumindo+a+API+com+fetch" alt="Typing SVG" />
+
+<br/>
+
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=for-the-badge)](https://fastapi.tiangolo.com/)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge)](https://www.mysql.com/)
+[![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?logo=apache&logoColor=white&style=for-the-badge)](https://www.apachefriends.org/)
+[![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge)](https://developer.mozilla.org/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge)](https://developer.mozilla.org/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=111111&style=for-the-badge)](https://developer.mozilla.org/docs/Web/JavaScript)
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 </div>
-
----
 
 ## 📖 Sobre o projeto
 
@@ -36,15 +40,21 @@ Cada livro cadastrado possui os seguintes dados:
 | `ano_publicacao` | Ano de publicação |
 | `disponivel` | Situação de disponibilidade |
 
+<div align="center">
+
+![divider](https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif)
+
+</div>
+
 ## 🎯 Objetivo
 
 O objetivo final é entregar uma aplicação funcional de ponta a ponta, com:
 
-- uma **API REST** feita em FastAPI, com CRUD completo (`Create`, `Read`, `Update`, `Delete`);
-- um **banco de dados MySQL**, administrado pelo phpMyAdmin (via XAMPP);
-- uma **interface web** em HTML, CSS e JavaScript, que consome a API usando `fetch`;
-- validação de dados e tratamento de erros HTTP;
-- um histórico organizado de commits no GitHub, documentando a evolução do projeto etapa por etapa.
+- 🟢 uma **API REST** feita em FastAPI, com CRUD completo (`Create`, `Read`, `Update`, `Delete`);
+- 🔵 um **banco de dados MySQL**, administrado pelo phpMyAdmin (via XAMPP);
+- 🟠 uma **interface web** em HTML, CSS e JavaScript, que consome a API usando `fetch`;
+- 🔴 validação de dados e tratamento de erros HTTP;
+- 📌 um histórico organizado de commits no GitHub, documentando a evolução do projeto etapa por etapa.
 
 Além do resultado final, o projeto também é uma forma de praticar conceitos importantes de desenvolvimento web: comunicação entre front-end e back-end, modelagem de banco de dados, boas práticas de código e uso do Git/GitHub como ferramenta de versionamento.
 
@@ -52,17 +62,46 @@ Além do resultado final, o projeto também é uma forma de praticar conceitos i
 
 O desenvolvimento segue quatro etapas, feitas em sala de aula, uma por vez:
 
-### 🟦 Etapa 1 · Fundação
-Preparação do ambiente de desenvolvimento, instalação das dependências, criação do banco `biblioteca_db` no MySQL e conexão da API com o banco através de uma rota de saúde (health check).
+<table>
+<tr>
+<td width="25%" align="center">
 
-### 🟩 Etapa 2 · Modelo e consultas
-Criação do modelo `Livro`, dos schemas de validação, da sessão do banco de dados e das rotas `POST` (cadastrar) e `GET` (listar/consultar).
+### 🟦
+**Etapa 1**
+<br/>Fundação
 
-### 🟧 Etapa 3 · CRUD completo
-Implementação das rotas `PUT` (atualizar) e `DELETE` (excluir), com tratamento de erros e testes de todas as operações do CRUD.
+Preparação do ambiente, instalação das dependências, criação do banco `biblioteca_db` e conexão da API via rota de *health check*.
 
-### 🟥 Etapa 4 · Front End
-Construção da interface web em HTML, CSS e JavaScript, consumindo a API para cadastrar, listar, editar e excluir livros diretamente pelo navegador.
+</td>
+<td width="25%" align="center">
+
+### 🟩
+**Etapa 2**
+<br/>Modelo e consultas
+
+Criação do modelo `Livro`, schemas de validação, sessão do banco e rotas `POST` / `GET`.
+
+</td>
+<td width="25%" align="center">
+
+### 🟧
+**Etapa 3**
+<br/>CRUD completo
+
+Rotas `PUT` / `DELETE`, tratamento de erros e testes de todas as operações do CRUD.
+
+</td>
+<td width="25%" align="center">
+
+### 🟥
+**Etapa 4**
+<br/>Front End
+
+Interface web em HTML, CSS e JavaScript, consumindo a API para cadastrar, listar, editar e excluir livros.
+
+</td>
+</tr>
+</table>
 
 ## 🔁 CRUD
 
@@ -75,18 +114,39 @@ Construção da interface web em HTML, CSS e JavaScript, consumindo a API para c
 
 ## 🧱 Stack utilizada
 
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,fastapi,mysql,html,css,js,vscode,git,github" />
+
+</div>
+
 `Python` · `FastAPI` · `Uvicorn` · `SQLAlchemy` · `PyMySQL` · `MySQL` · `XAMPP` · `phpMyAdmin` · `HTML` · `CSS` · `JavaScript` · `VS Code` · `GitHub`
 
-> O arquivo `database/biblioteca_db.sql` fica versionado neste repositório, permitindo recriar o banco a qualquer momento pelo phpMyAdmin.
+> 💾 O arquivo `database/biblioteca_db.sql` fica versionado neste repositório, permitindo recriar o banco a qualquer momento pelo phpMyAdmin.
+
+<div align="center">
+
+![divider](https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif)
+
+</div>
 
 ## 📅 Andamento
 
+<div align="center">
+
+**Progresso geral do projeto**
+
+![Progress](https://progress-bar.dev/25/?title=Concluído&width=400&color=009688)
+
+</div>
+
 | Etapa | Entrega | Data | Status |
 | --- | --- | --- | --- |
-| 🟦 1 · Fundação | Ambiente e conexão | 03/09/2026 | ⏳ Em andamento |
-| 🟩 2 · Modelo | `POST`/`GET` | 10/09/2026 | 🔒 A fazer |
-| 🟧 3 · CRUD | `PUT`/`DELETE` | 17/09/2026 | 🔒 A fazer |
-| 🟥 4 · Front End | Interface Web | 24/09/2026 | 🔒 A fazer |
+| 🟦 1 · Fundação | Ambiente e conexão | 03/09/2026 | ☑️ Concluído |
+| 🟩 2 · Modelo | `POST`/`GET` | 10/09/2026 | ☑️ Concluído  |
+| 🟧 3 · CRUD | `PUT`/`DELETE` | 17/09/2026 | ☑️ Concluído  |
+| 🟥 4 · Front End | Interface Web | 24/09/2026 | ☑️ Concluído  |
+|Projeto Finalizado 🏆|
 
 ## 🚀 Como rodar o projeto
 
@@ -116,6 +176,8 @@ uvicorn main:app --reload
 > 🔒 O arquivo `.env` não é versionado, pois contém a senha local do MySQL.
 
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4479A1,100:009688&height=120&section=footer"/>
 
 **📚 API de Livros · João Gabriel Tavares de Lira · SW-II · 3º Bimestre**
 
