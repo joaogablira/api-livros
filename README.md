@@ -4,7 +4,7 @@
 
 ### João Gabriel Tavares de Lira
 
-<img src="foto/joaogblira.png" alt="Foto de João Gabriel Tavares de Lira" width="160" style="border-radius: 50%; box-shadow: 0 0 20px rgba(0,150,136,0.5);" />
+<img src="foto/joaogblira.jpg" alt="Foto de João Gabriel Tavares de Lira" width="160" style="border-radius: 50%; box-shadow: 0 0 20px rgba(0,150,136,0.5);" />
 
 <br/>
 
@@ -20,7 +20,7 @@
 [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge)](https://developer.mozilla.org/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=111111&style=for-the-badge)](https://developer.mozilla.org/docs/Web/JavaScript)
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+<img src="assets/livros-animado.svg" width="100%">
 
 </div>
 
@@ -42,7 +42,7 @@ Cada livro cadastrado possui os seguintes dados:
 
 <div align="center">
 
-![divider](https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif)
+<img src="assets/livros-divisor.svg" width="100%">
 
 </div>
 
@@ -126,7 +126,7 @@ Interface web em HTML, CSS e JavaScript, consumindo a API para cadastrar, listar
 
 <div align="center">
 
-![divider](https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif)
+<img src="assets/livros-divisor.svg" width="100%">
 
 </div>
 
@@ -146,7 +146,7 @@ Interface web em HTML, CSS e JavaScript, consumindo a API para cadastrar, listar
 | 🟩 2 · Modelo | `POST`/`GET` | 10/09/2026 | ☑️ Concluído  |
 | 🟧 3 · CRUD | `PUT`/`DELETE` | 17/09/2026 | ☑️ Concluído  |
 | 🟥 4 · Front End | Interface Web | 24/09/2026 | ☑️ Concluído  |
-|Projeto Finalizado 🏆|
+| PROJETO | FINALIZADO | COM | SUCESSO 🏆 |
 
 ## 🚀 Como rodar o projeto
 
@@ -182,3 +182,4 @@ uvicorn main:app --reload
 **📚 API de Livros · João Gabriel Tavares de Lira · SW-II · 3º Bimestre**
 
 </div>
+
