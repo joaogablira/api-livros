@@ -41,7 +41,7 @@ CREATE TABLE `livros` (
 
 INSERT INTO `livros` (`id`, `titulo`, `autor`, `ano_publicacao`, `disponivel`) VALUES
 (1, 'O Hobbit', 'J. R. R. Tolkien', 1937, 1),
-(5, 'Dom Casmurro', 'Machado de Lira', 1899, 0);
+(2, 'O Pequeno Príncipe', 'Antoine d Saint-Exupéry', 1943, 1);
 
 --
 -- Índices para tabelas despejadas
