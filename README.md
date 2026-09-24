@@ -128,7 +128,8 @@ Interface web em HTML, CSS e JavaScript, consumindo a API para cadastrar, listar
 
 ### 📊 Progresso geral do projeto
 
-![Progresso](https://progress-bar.dev/100/?title=Concluído&width=400&color=009688)
+![Progresso](https://img.shields.io/badge/Progresso-100%25-009688?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Finalizado-success?style=for-the-badge)
 
 ### 🏆 PROJETO FINALIZADO COM SUCESSO!
 
