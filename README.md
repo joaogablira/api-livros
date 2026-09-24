@@ -4,7 +4,7 @@
 
 ### João Gabriel Tavares de Lira
 
-<img src="foto/joaogblira.jpg" alt="Foto de João Gabriel Tavares de Lira" width="160" style="border-radius: 50%; box-shadow: 0 0 20px rgba(0,150,136,0.5);" />
+<img src="assets/joaogblira.jpg" alt="Foto de João Gabriel Tavares de Lira" width="160" style="border-radius: 50%; box-shadow: 0 0 20px rgba(0,150,136,0.5);" />
 
 <br/>
 
