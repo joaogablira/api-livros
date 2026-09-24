@@ -126,19 +126,20 @@ Interface web em HTML, CSS e JavaScript, consumindo a API para cadastrar, listar
 
 <div align="center">
 
-**Progresso geral do projeto**
+### 📊 Progresso geral do projeto
 
-![Progress](https://progress-bar.dev/25/?title=Concluído&width=400&color=009688)
+![Progresso](https://progress-bar.dev/100/?title=Concluído&width=400&color=009688)
+
+### 🏆 PROJETO FINALIZADO COM SUCESSO!
 
 </div>
 
 | Etapa | Entrega | Data | Status |
 | --- | --- | --- | --- |
 | 🟦 1 · Fundação | Ambiente e conexão | 03/09/2026 | ☑️ Concluído |
-| 🟩 2 · Modelo | `POST`/`GET` | 10/09/2026 | ☑️ Concluído  |
-| 🟧 3 · CRUD | `PUT`/`DELETE` | 17/09/2026 | ☑️ Concluído  |
-| 🟥 4 · Front End | Interface Web | 24/09/2026 | ☑️ Concluído  |
-| PROJETO | FINALIZADO | COM | SUCESSO 🏆 |
+| 🟩 2 · Modelo | `POST` / `GET` | 10/09/2026 | ☑️ Concluído |
+| 🟧 3 · CRUD | `PUT` / `DELETE` | 17/09/2026 | ☑️ Concluído |
+| 🟥 4 · Front End | Interface Web | 24/09/2026 | ☑️ Concluído |
 
 ## 🚀 Como rodar o projeto
 
